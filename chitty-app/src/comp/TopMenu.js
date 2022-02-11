@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Component from 'react';
 import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -10,7 +11,34 @@ import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import Avatar from '@mui/material/Avatar';
 import Logo from '../img/pocketMonsters.png';
+// import SearchBar from "./SearchBar"
 
+// class App extends Component {
+  // constructor() {
+  //   super();
+  //   this.state = {
+  //     searchTerm: ``,
+  //   };
+
+  //   this.handleSearchChange = this.handleSearchChange.bind(this);
+  //   this.handleSearchClick = this.handleSearchClick.bind(this);
+  // }
+
+  // handleSearchClick(e) {
+  //   //actually search for pokemon here
+  //   console.log("handle Search click");
+  //   let searchBar = document.querySelector('Search');
+  //   console.log('You Searched', this.state.searchTerm);
+
+  //   searchBar.value = '';
+  //   e.preventDefault();
+  // }
+
+  // handleSearchChange(e) {
+  //   console.log(e.target.value);
+  //   this.setState({ searchTerm: e.target.value });
+  // }
+// }
 // const Title = styled('div')(({ theme }) => ({
 //     padding: theme.spacing(0, 0),
 //     height: '100%',

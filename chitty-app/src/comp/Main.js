@@ -2,6 +2,9 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
 import { Typography } from '@material-ui/core';
+import PokemonCard from './PokemonCard';
+import OldPokedex from './OldPokedex';
+// import Pokedex from './Pokedex'
 
 const useStyles = makeStyles(theme => ({
   toolbar: theme.mixins.toolbar,
@@ -15,6 +18,8 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(3),
   },
   fullWidth: {
+    // margin: '10%',
+    paddingTop: '5%',
     width: '100%',
   },
 
@@ -33,6 +38,8 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
+
+
 function MainContent() {
   const classes = useStyles();
 
@@ -45,7 +52,21 @@ function MainContent() {
       <div className={classes.content}>
         <Typography header>
           PLEASE SEARCH A POKEMON TO LEARN MORE ABOUT IT
+          <br />
+          RELEASE ME FROM THIS MORTAL COIL
+          <br />
+          <br />
+          Send Help
         </Typography>
+        {/* <PokemonCard name="jason" imgUrl='https://bit.ly/3oJVUyd' /> */}
+        <OldPokedex />
+        {/* <Pokedex /> */}
+
+        {/* {testList.map((obj, i) => (
+          <pokemonCard key={i} name={obj.name} />
+        ) )} */}
+
+
       </div>
     </main>
   );

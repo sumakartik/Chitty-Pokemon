@@ -42,3 +42,25 @@ _Send help_
 * Add language support -
     * the PokeAPI has multiple languages for each pokemon - but they're all a little different
     * Make it so the user can switch between the AVAILABLE language for that pokemon's description
+
+
+
+- McGigger Loads Page
+- Querry API
+
+    - Can I haz DB
+- Recieve JSON
+    - TDD: Mock here
+    - Get ton of info
+- Parse JSON
+    - Map data into array, sort, obj (some sort of data type.)
+- Push out cards - 100 pokemon -> objects live in DOM (roster crew member here)
+
+Wait for event
+
+- User searches for card <>
+
+
+Pokemon Card Object
+    - Name
+    - IMG URL
