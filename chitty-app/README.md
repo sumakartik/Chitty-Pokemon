@@ -4,8 +4,8 @@ _Send help_
 
 
 ### STAGE ONE
-* As a user, you should imidiately see a welcome message
-* A user should use a search bar at the top with a button
+- As a user, you should immediately see a welcome message
+- A user should use a search bar at the top with a button
 * When a user types a pokemon’s NAME or NUMBER into the search bar and hits the button, the pokemon should be search via the pokeAPI and its picture and some data should appear on the app
     * WHICH data you show is up to your group - choose several things from the giant (10,000+ lines) pokedata object and decide how to make sure they are displayed.
     * Data you might consider could include:
@@ -13,7 +13,7 @@ _Send help_
         * the pokemon’s pokedex number - may be stored as the ‘id’
     * This object returned from the API will be more complex than the data pokeData dummy app!
     * The picture should have the pokemon’s name above
-* Add a logo of some sort
+- Add a logo of some sort
 
 ### STAGE TWO
 * Once you’ve gotten the above set up working, add a componentDidMount method with a fetch call to your class component that grab a random pokemon and display it on load instead of the welcome message
