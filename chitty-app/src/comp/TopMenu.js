@@ -24,6 +24,11 @@ import Logo from '../img/pocketMonsters.png';
   //   this.handleSearchClick = this.handleSearchClick.bind(this);
   // }
 
+//getPokeData(searchTerm){
+//console.log(searchTerm, "getPokeDatatest")
+//const url = 'https://pokeapi.co/api/v2/pokemon${searchTerm}';
+//fetch(url).then(res=>res.json()).then(data=>{console.log(data)})
+
   // handleSearchClick(e) {
   //   //actually search for pokemon here
   //   console.log("handle Search click");
