@@ -18,19 +18,19 @@ const useStyles = makeStyles(theme => ({
     width: '100%',
   },
 
-  pokedexContainer: {
-    paddingTop: "20px",
-    paddingLeft: "50px",
-    paddingRight: "50px"
-  },
+  // pokedexContainer: {
+  //   paddingTop: "20px",
+  //   paddingLeft: "50px",
+  //   paddingRight: "50px"
+  // },
 
-  cardPicture:{
-    margin: "right"
-  },
+  // cardPicture:{
+  //   margin: "right"
+  // },
 
-  cardName:{
-    margin: "left"
-  },
+  // cardName:{
+  //   margin: "left"
+  // },
 }));
 
 function MainContent() {
@@ -43,7 +43,7 @@ function MainContent() {
         <Typography variant='h6'>WELCOME TO THE POKEDEX</Typography>
       </div>
       <div className={classes.content}>
-        <Typography header>
+        <Typography paragraph>
           PLEASE SEARCH A POKEMON TO LEARN MORE ABOUT IT
         </Typography>
       </div>
